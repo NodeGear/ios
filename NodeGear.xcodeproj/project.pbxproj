@@ -8,15 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		4F221F3F196B6BDE0066BB72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F221F3E196B6BDE0066BB72 /* AppDelegate.swift */; };
-		4F221F41196B6BDE0066BB72 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F221F40196B6BDE0066BB72 /* MasterViewController.swift */; };
-		4F221F43196B6BDE0066BB72 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F221F42196B6BDE0066BB72 /* DetailViewController.swift */; };
-		4F221F46196B6BDE0066BB72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F221F44196B6BDE0066BB72 /* Main.storyboard */; };
 		4F221F48196B6BDE0066BB72 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F221F47196B6BDE0066BB72 /* Images.xcassets */; };
 		4F221F54196B6BDE0066BB72 /* NodeGearTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F221F53196B6BDE0066BB72 /* NodeGearTests.swift */; };
+		4F221F5E196B7DE50066BB72 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F221F5D196B7DE50066BB72 /* Storage.swift */; };
+		4F221F61196B7F9B0066BB72 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F221F60196B7F9B0066BB72 /* Account.swift */; };
+		4F221F68196B837B0066BB72 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F221F67196B837B0066BB72 /* SignInViewController.swift */; };
+		4F221F6A196B8CE00066BB72 /* proximanova-reg-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4F221F69196B8CE00066BB72 /* proximanova-reg-webfont.ttf */; };
+		4F221F6C196B8F3A0066BB72 /* proximanova-light-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4F221F6B196B8E210066BB72 /* proximanova-light-webfont.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		4F221F4E196B6BDE0066BB72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F221F31196B6BDE0066BB72 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F221F38196B6BDE0066BB72;
+			remoteInfo = NodeGear;
+		};
+		4F221F63196B81EA0066BB72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F221F31196B6BDE0066BB72 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F221F38196B6BDE0066BB72;
+			remoteInfo = NodeGear;
+		};
+		4F221F65196B81EA0066BB72 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 4F221F31196B6BDE0066BB72 /* Project object */;
 			proxyType = 1;
@@ -29,13 +45,16 @@
 		4F221F39196B6BDE0066BB72 /* NodeGear.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NodeGear.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F221F3D196B6BDE0066BB72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4F221F3E196B6BDE0066BB72 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4F221F40196B6BDE0066BB72 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
-		4F221F42196B6BDE0066BB72 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
-		4F221F45196B6BDE0066BB72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4F221F47196B6BDE0066BB72 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4F221F4D196B6BDE0066BB72 /* NodeGearTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NodeGearTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F221F52196B6BDE0066BB72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4F221F53196B6BDE0066BB72 /* NodeGearTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NodeGearTests.swift; sourceTree = "<group>"; };
+		4F221F5D196B7DE50066BB72 /* Storage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
+		4F221F60196B7F9B0066BB72 /* Account.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		4F221F62196B81730066BB72 /* Bridge-Helper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridge-Helper.h"; sourceTree = "<group>"; };
+		4F221F67196B837B0066BB72 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		4F221F69196B8CE00066BB72 /* proximanova-reg-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "proximanova-reg-webfont.ttf"; sourceTree = "<group>"; };
+		4F221F6B196B8E210066BB72 /* proximanova-light-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "proximanova-light-webfont.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +96,15 @@
 		4F221F3B196B6BDE0066BB72 /* NodeGear */ = {
 			isa = PBXGroup;
 			children = (
+				4F221F5F196B7F8D0066BB72 /* Data Models */,
 				4F221F3E196B6BDE0066BB72 /* AppDelegate.swift */,
-				4F221F40196B6BDE0066BB72 /* MasterViewController.swift */,
-				4F221F42196B6BDE0066BB72 /* DetailViewController.swift */,
-				4F221F44196B6BDE0066BB72 /* Main.storyboard */,
+				4F221F67196B837B0066BB72 /* SignInViewController.swift */,
 				4F221F47196B6BDE0066BB72 /* Images.xcassets */,
 				4F221F3C196B6BDE0066BB72 /* Supporting Files */,
+				4F221F5D196B7DE50066BB72 /* Storage.swift */,
+				4F221F62196B81730066BB72 /* Bridge-Helper.h */,
+				4F221F69196B8CE00066BB72 /* proximanova-reg-webfont.ttf */,
+				4F221F6B196B8E210066BB72 /* proximanova-light-webfont.ttf */,
 			);
 			path = NodeGear;
 			sourceTree = "<group>";
@@ -110,6 +132,14 @@
 				4F221F52196B6BDE0066BB72 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4F221F5F196B7F8D0066BB72 /* Data Models */ = {
+			isa = PBXGroup;
+			children = (
+				4F221F60196B7F9B0066BB72 /* Account.swift */,
+			);
+			name = "Data Models";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,6 +174,8 @@
 			);
 			dependencies = (
 				4F221F4F196B6BDE0066BB72 /* PBXTargetDependency */,
+				4F221F64196B81EA0066BB72 /* PBXTargetDependency */,
+				4F221F66196B81EA0066BB72 /* PBXTargetDependency */,
 			);
 			name = NodeGearTests;
 			productName = NodeGearTests;
@@ -161,6 +193,7 @@
 				TargetAttributes = {
 					4F221F38196B6BDE0066BB72 = {
 						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = TCRG56FQHV;
 					};
 					4F221F4C196B6BDE0066BB72 = {
 						CreatedOnToolsVersion = 6.0;
@@ -192,7 +225,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F221F46196B6BDE0066BB72 /* Main.storyboard in Resources */,
+				4F221F6A196B8CE00066BB72 /* proximanova-reg-webfont.ttf in Resources */,
+				4F221F6C196B8F3A0066BB72 /* proximanova-light-webfont.ttf in Resources */,
 				4F221F48196B6BDE0066BB72 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -211,8 +245,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F221F43196B6BDE0066BB72 /* DetailViewController.swift in Sources */,
-				4F221F41196B6BDE0066BB72 /* MasterViewController.swift in Sources */,
+				4F221F68196B837B0066BB72 /* SignInViewController.swift in Sources */,
+				4F221F61196B7F9B0066BB72 /* Account.swift in Sources */,
+				4F221F5E196B7DE50066BB72 /* Storage.swift in Sources */,
 				4F221F3F196B6BDE0066BB72 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -233,18 +268,17 @@
 			target = 4F221F38196B6BDE0066BB72 /* NodeGear */;
 			targetProxy = 4F221F4E196B6BDE0066BB72 /* PBXContainerItemProxy */;
 		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		4F221F44196B6BDE0066BB72 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4F221F45196B6BDE0066BB72 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
+		4F221F64196B81EA0066BB72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F221F38196B6BDE0066BB72 /* NodeGear */;
+			targetProxy = 4F221F63196B81EA0066BB72 /* PBXContainerItemProxy */;
 		};
-/* End PBXVariantGroup section */
+		4F221F66196B81EA0066BB72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F221F38196B6BDE0066BB72 /* NodeGear */;
+			targetProxy = 4F221F65196B81EA0066BB72 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		4F221F55196B6BDE0066BB72 /* Debug */ = {
@@ -331,9 +365,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = NodeGear/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "NodeGear/Bridge-Helper.h";
 			};
 			name = Debug;
 		};
@@ -342,9 +379,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = NodeGear/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "NodeGear/Bridge-Helper.h";
 			};
 			name = Release;
 		};
@@ -363,6 +403,7 @@
 				INFOPLIST_FILE = NodeGearTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "NodeGear/Bridge-Helper.h";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 			};
 			name = Debug;
@@ -378,6 +419,7 @@
 				INFOPLIST_FILE = NodeGearTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "NodeGear/Bridge-Helper.h";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 			};
 			name = Release;

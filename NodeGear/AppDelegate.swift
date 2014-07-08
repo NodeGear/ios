@@ -10,15 +10,20 @@ import UIKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-                            
 	var window: UIWindow?
-
+	var vc: SignInViewController?
 
 	func application(application: UIApplication!, didFinishLaunchingWithOptions launchOptions: NSDictionary!) -> Bool {
-		// Override point for customization after application launch.
-		let splitViewController = self.window!.rootViewController as UISplitViewController
-		let navigationController = splitViewController.viewControllers[splitViewController.viewControllers.count-1] as UINavigationController
-		splitViewController.delegate = navigationController.topViewController as DetailViewController
+		application.setStatusBarStyle(UIStatusBarStyle.LightContent, animated: false)
+		
+		window = UIWindow(frame: UIScreen.mainScreen().bounds)
+		window!.backgroundColor = UIColor.blackColor()
+		
+		vc = SignInViewController(nibName: nil, bundle: nil)
+		window!.rootViewController = vc
+		
+		window!.makeKeyAndVisible()
+		
 		return true
 	}
 
